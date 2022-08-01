@@ -39,51 +39,24 @@ if %allcooling% == 0 (
 )
 
 :setpower
-Rem - Minimum processor state -DC / On battery
-Rem - Minimum processor state -AC / plugged in
-Rem - Maximum processor state -DC / On battery
-Rem - Maximum processor state -AC / plugged in
 powercfg /setdcvalueindex %balanced% %subgroupGUID% %powersettingMinimum% %bmin-dc%
 powercfg /setacvalueindex %balanced% %subgroupGUID% %powersettingMinimum% %bmin-ac%
 powercfg /setdcvalueindex %balanced% %subgroupGUID% %powersettingMaximum% %bmax-dc%
 powercfg /setacvalueindex %balanced% %subgroupGUID% %powersettingMaximum% %bmax-ac%
-
-Rem - Minimum processor state -DC / On battery
-Rem - Minimum processor state -AC / plugged in
-Rem - Maximum processor state -DC / On battery
-Rem - Maximum processor state -AC / plugged in
 powercfg /setdcvalueindex %powersaver% %subgroupGUID% %powersettingMinimum% %psmin-dc%
 powercfg /setacvalueindex %powersaver% %subgroupGUID% %powersettingMinimum% %psmin-ac%
 powercfg /setdcvalueindex %powersaver% %subgroupGUID% %powersettingMaximum% %psmax-dc%
 powercfg /setacvalueindex %powersaver% %subgroupGUID% %powersettingMaximum% %psmax-ac%
 
-if "%WindowsVersion%" == "10.0" (
-	goto SetCoolingSystem
-)
-if "%WindowsVersion%" == "6.3" (
-	goto SetCoolingSystem
-)
-if "%WindowsVersion%" == "6.2" (
-	goto SetCoolingSystem
-)
-if "%WindowsVersion%" == "6.1" (
-	goto SetCoolingSystem
-)
 if "%WindowsVersion%" == "6.0" (
 	goto WindowsVista
 )
 
-:SetCoolingSystem
-Rem - System Cooling Policy -DC / On battery
-Rem - System Cooling Policy -AC / plugged in
-Rem - System Cooling Policy -DC / On battery
-Rem - System Cooling Policy -AC / plugged in
 powercfg /setdcvalueindex %balanced% %subgroupGUID% %powersettingCooling% %allcooling%
 powercfg /setacvalueindex %balanced% %subgroupGUID% %powersettingCooling% %allcooling%
 powercfg /setdcvalueindex %powersaver% %subgroupGUID% %powersettingCooling% %allcooling%
 powercfg /setacvalueindex %powersaver% %subgroupGUID% %powersettingCooling% %allcooling%
 goto NotWindowsVista
-
 
 :WindowsVista
 ver && echo %yourwindows%
