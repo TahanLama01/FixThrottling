@@ -1,0 +1,11 @@
+1. sambungkan Laptopmu ke listrik
+2. klik icon battery di pojok kanan bawah dan ubah menjadi Best Performance (Hanya ada di Windows 10)
+3. jalankan program 'Change Management Power (Recommend)'
+4. dan jalankan Fix Throttling v1.5
+5. ketik jumlah detik dan tekan enter
+6. biarkan program berjalan dilatarbelakang
+7. lanjutkan bermain game
+
+Catatan : 
+gunakan program ini saat bermain game 
+atau saat prosesor mengalami penurunan kinerja

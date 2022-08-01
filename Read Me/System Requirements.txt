@@ -1,0 +1,14 @@
+Supported to Windows:
+Windows Vista 	- 32/64 bit
+Windows 72 	- 32/64 bit
+Windows 8.1 	- 32/64 bit
+Windows 10 	- 32/64 bit
+Windows 10 Mod Ghost Spectre - 64 bit
+Windows 11 	- 64 bit
+Windows 11 Mod Ghost Spectre - 64 bit
+
+Windows 8 (untried) (belum dicoba)
+
+
+Not Supported to Windows:
+Windows XP 	- 32/64 bit

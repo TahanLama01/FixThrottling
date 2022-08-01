@@ -1,0 +1,29 @@
+==============================	Fix Throttling	==============================
+kalian sudah membaca file 'Masalah akibat Throttling'?
+Disini saya akan menjelaskan cara kerja pada program yang saya buat.
+
+Jika kalian pengguna windows 10, pasti tau Power Options (di taskbar ada logo baterai, klik kanan saja)
+atau bisa buka lewat Control Panel > Hardware and Sound > Power Options.
+umumnya terdapat hanya 'plan Balanced (Recommmend)'.
+ketika program ini dijalankan, Program akan berpindah ke mode 'Power Saver' (Kalian bisa lihat di "Create a power plan")
+dan akan kembali kemode Balanced dalam waktu 1 detik secara otomatis.
+
+nah, program yang saya buat ini dalam waktu 10 menit akan selalu mengubah mode Baterai 
+dari 'Balanced' ke mode 'Power Saver' dan kembali ke mode 'Balanced' lagi.
+
+untuk apa dilakukan seperti itu?
+ini seperti ketika jalan-jalan menggunakan sepeda tanpa istirahat dan kemudian ban pada sepeda akan bocor dengan sendirinya.
+dan program ini akan mengatasi ban pada sepeda yang bocor itu secara otomatis tanpa perlu berhenti bersepeda atau tetap lanjut bersepeda.
+
+lalu, apa efek samping pada program ini?
+
+efek samping :
+1. jika kalian bermain game, FPS akan drop beberapa detik (biasanya 1-5 detik)
+2. Brightness pada laptop akan naik turun dengan otomatis (itu karena jika kalian belum mengatur Brightness padas mode 'Power Saver')
+
+
+Catatan :
+Jika Program ini berhasil mengatasi Throttling pada Laptop kalian, 
+mohon untuk tidak lupa mengistirahatkan laptop kalian dan juga diri kalian.
+
+

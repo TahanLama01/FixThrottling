@@ -1,0 +1,40 @@
+Hello, Thank you for downloading this Program and I will explain the problem on Throttling.
+First,
+This program aims to overcome the performance degradation caused by Throttling when playing games for a long time.
+
+Generally, when Laptop Performance is forced to play games in order to get maximum FPS,
+The voltage on the processor will also increase which causes the processor temperature to heat up.
+When the processor heats up, the program will run Throttling,
+which causes the performance of the processor to decrease in order to maintain the temperature of the processor (the FPS in the game will also decrease).
+and also when Throttling occurs, the Processor Clock Speed ​​will be limited aka Stuck.
+
+My processor is AMD 3020e (Dual Core - Base Clock 1.2 Ghz & Turbo Clock 2.6 Ghz)
+For example in my case:
+
+Clock Speed ​​: ±2.4 Ghz (when playing games)
+Temperature : ±63°C
+Voltage : ±0.950 V
+Game FPS : ±60 FPS (I play games on PCSX2)
+
+When playing games for a long time,
+Throttling will run by itself and result in a decrease in performance so that the FPS in the game also decreases.
+
+Clock Speed ​​: 1.6 Ghz
+Temperature : ±56°C
+Voltage : ±0.800 V
+Game FPS : ±30 FPS
+
+Throttling itself can be disabled and some can't.
+However, what I experienced myself also don't know why this Throttling itself appears when playing a game that is quite long and can't be disabled.
+either because of the processor that I have my own Throttling Program
+or my laptop battery has Throttling Program or indeed my battery is damaged (not possible, because my laptop is still a few months of use).
+
+In conclusion,
+there is a Throttling Program that is either on the processor or laptop battery,
+which is used to lower the temperature of the laptop due to overheating when used like playing games.
+Maybe this Throttling has a sensor on the processor temperature or a sensor on the processor voltage.
+
+Thank you for reading and using this program.
+if there is an error in the explanation above, please forgive.
+
+This program has just been tested on Windows 10, haven't tried it on other Windows.

@@ -1,0 +1,27 @@
+============================== Fix Throttling ================== ==============
+Have you read the file 'Throttling Problems'?
+Here I will explain how to work on the program that I created.
+
+If you are a Windows 10 user, surely you know Power Options (the taskbar has a battery logo, just right click)
+or you can open it via Control Panel > Hardware and Sound > Power Options.
+generally there is only 'plan Balanced (Recommmend)'.
+when this program is run, the program will switch to 'Power Saver' mode (You can see in "Create a power plan")
+and will return to Balanced mode within 1 second automatically.
+
+well, the program I created within 10 minutes will always change the Battery mode
+from 'Balanced' to 'Power Saver' mode and back to 'Balanced' mode again.
+
+why do it like that?
+it's like walking around on a bicycle without a break and then the tire on the bike will burst by itself.
+and this program will fix the tire on the punctured bicycle automatically without the need to stop cycling or continue cycling.
+
+then, what are the side effects of this program?
+
+side effects :
+1. if you play the game, the FPS will drop a few seconds (usually 1-5 seconds)
+2. Brightness on the laptop will go up and down automatically (that's because if you haven't set Brightness in 'Power Saver' mode)
+
+
+Notes :
+If this program is successful in overcoming Throttling on your Laptop,
+please don't forget to rest your laptop as well as yourself.

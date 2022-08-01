@@ -1,0 +1,11 @@
+1. Connect your Laptop to electricity
+2. Click the battery icon in the lower right corner and change it to Best Performance (Only in Windows 10)
+3. run the program 'Change Management Power (Recommend)'
+4. and run Fix Throttling v1.5
+5. type the number of seconds and press enter
+6. Let the program run in the background
+7. continue playing the game
+
+Notes :
+use this program while playing game
+or when the processor is experiencing a performance drop

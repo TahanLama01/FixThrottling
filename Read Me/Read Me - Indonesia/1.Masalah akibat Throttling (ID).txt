@@ -1,0 +1,40 @@
+Hallo, Terimakasih telah mendownload Program ini dan saya akan menjelaskan masalah pada Throttling.
+Pertama, 
+Program ini bertujuan untuk mengatasi penurunan performa yang disebabkan oleh Throttling ketika bermain game yang cukup lama.
+
+Umumnya, ketika Performa Laptop dipaksa bermain game agar mendapatkan FPS yang maksimal, 
+Voltage pada prosessor akan juga ikut naik yang mengakibatkan suhu prosessor panas.
+Ketika terjadi Prosessor panas, maka program akan menjalankan Throttling,
+yang mengakibatkan performa Prosessor menurun demi menjaga suhu Prosessor (FPS dalam game juga akan ikut turun).
+dan juga ketika terjadi Throttling, Clock Speed Prosessor akan dibatasi alias Stuck.
+
+Prosessor saya AMD 3020e (Dual Core - Base Clock 1.2 Ghz & Turbo Clock 2.6 Ghz)
+Sebagai contoh pada kasus yang saya alami:
+
+Clock Speed	: ±2.4 Ghz (ketika bermain game)
+Suhu 		: ±63°C
+Voltage 	: ±0.950 V
+FPS Game	: ±60 FPS (saya bermain game di PCSX2)
+
+Ketika bermain game dalam waktu yg lama, 
+Throttling akan berjalan dengan sendiri dan mengakibatkan penurunan performa sehingga FPS pada game juga menurun.
+
+Clock Speed	: 1.6 Ghz
+Suhu 		: ±56°C
+Voltage 	: ±0.800 V
+FPS Game	: ±30 FPS
+
+Throttling sendiri ada yang bisa nonaktifkan dan ada juga yang tidak bisa.
+tapi, yang saya alami ini sendiri juga tidak tahu kenapa Throttling ini sendiri muncul ketika bermain game yang cukup lama dan tidak bisa dinonaktifkan.
+entah karena prosessor yang saya memiliki Program Throttling sendiri 
+atau baterai Laptop saya yang memili Program Throttling atau memang Baterai saya rusak (tidak mungkin, karena laptop saya masih beberapa bulan digunakan).
+
+Kesimpulannya, 
+ada Program Throttling yang entah berada di prosessor atau baterai laptop,
+yang digunakan untuk menurunkan suhu laptop akibat panas berlebih ketika digunakan seperti bermain game.
+Mungkin Throttling ini memiliki sensor pada suhu prosessor atau sensor pada voltage prosessor.
+
+Terimakasih telah membaca dan menggunakan Program ini.
+jika ada kesalahan dalam penjelasan diatas, mohon dimaafkan.
+
+Program ini baru di coba pada Windows 10, belum dicoba ke Windows yang lainnya.
