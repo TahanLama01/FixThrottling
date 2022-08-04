@@ -25,18 +25,7 @@ set psmax-dc=100
 set psmax-ac=100
 set allcooling=1
 
-if %allcooling% == 1 (
-	set statuscooling=Active
-	goto setpower
-) 
-if %allcooling% == 0 (
-	set statuscooling=Passive
-	goto setpower
-) else (
-	echo Change allcooling to 1 or 0
-	echo.
-	goto quit
-)
+goto setpower
 
 :setpower
 powercfg /setdcvalueindex %balanced% %subgroupGUID% %powersettingMinimum% %bmin-dc%
