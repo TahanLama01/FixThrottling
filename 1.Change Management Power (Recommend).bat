@@ -21,8 +21,8 @@ set bmax-dc=100
 set bmax-ac=100
 set psmin-dc=5
 set psmin-ac=5
-set psmax-dc=90
-set psmax-ac=90
+set psmax-dc=100
+set psmax-ac=100
 set allcooling=1
 
 if %allcooling% == 1 (
