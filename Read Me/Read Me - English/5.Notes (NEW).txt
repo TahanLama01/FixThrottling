@@ -1,0 +1,6 @@
+notes:
+I've tested it while playing Sengoku Basara 2 - Heroes on the PCSX2 emulator (PC), the results are good.
+
+but when doing video editing is also good. 
+unless it's rendering video, the result is a CPU crash at some point (I always crash at 1.6 Ghz). 
+but I still use it when rendering and the results are still good (even though the cpu is still stuck)
