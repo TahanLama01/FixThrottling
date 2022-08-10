@@ -1,6 +1,6 @@
 History Update - Fix Throtting
 
-Fix Throttling v1.1
+Fix Throttling v1.1 (Recommended for Low CPU)
 -The program will repeat every 10 minutes
 
 Fix Throttling v1.2
