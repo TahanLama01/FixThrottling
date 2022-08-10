@@ -1,0 +1,6 @@
+Catatan tambahan :
+saya telah melakukan uji coba ketika bermain game Sengoku Basara 2 -  Heroes di emulator PCSX2 (PC), hasilnya bagus.
+
+tapi ketika melakukan editing video, juga bagus. 
+kecuali sedang rendering video, hasilnya CPU tetap Stuck ditertentu (saya selalu stuck di 1.6 Ghz). 
+tapi saya tetap menggunakannya ketika rendering dan hasilnya tetap bagus (meskipun CPU tetap stuck)
